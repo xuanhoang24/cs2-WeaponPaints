@@ -164,8 +164,7 @@ public partial class WeaponPaints
         "weapon_elite"
     };
 
-    [ConsoleCommand("css_i", "Give weapon from csgo_econ_action_preview console link (for chat)")]
-    [ConsoleCommand("i", "Give weapon from csgo_econ_action_preview console link (for console)")]
+    [ConsoleCommand("i", "Give weapon from csgo_econ_action_preview console link")]
     public void OnConsoleLinkGive(CCSPlayerController? player, CommandInfo command)
     {
         if (player == null || !Utility.IsPlayerValid(player))
